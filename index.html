@@ -10,71 +10,95 @@
     <header style="background-color: #ec7ec7; text-align: center;"">
         <h1>Bienvenido a Mi Página Web</h1>
     </header>
-    <nav>
-        <ul>
-            <li>Inicio</li>
-            <li>Sobre mí</li>
-            <li>Contacto</li>
-        </ul>
-    </nav>
+    <main>
+        <nav>
+            <ul>
+                <li>Inicio</li>
+                <li>Sobre mí</li>
+                <li>Contacto</li>
+            </ul>
+        </nav>
 
-    <section style="text-align: center;">
-        <h2>Verónica Villegas Magaña</h2>
+        <section style="text-align: center;">
+            <h2>Verónica Villegas Magaña</h2>
 
-        <div align="center">
-            <img src="img/foto.png" alt="Mi Foto" width="300">
-        </div>
+            <div align="center">
+                <img src="img/foto.png" alt="Mi Foto" width="300">
+            </div>
+        </section>
 
-    </section>
-
-    <section>
-        <h2>Formación Académica</h2>
+        <section>
+            <h2>Formación Académica</h2>
             <p>Taller: Ofimatica - Secundaria Técnica 39 "Jesus Reyes Heroles"</p>
             <p>Técnico en Redes de Computo - CET 1 "walter Cross Buchanan", IPN</p>
             <p>Ingeniería en Sistemas Computacionales - ESCOM, IPN</p>
-        
-        <h2>Actualmente</h2>
-        <p>Estudiante de Ingeniería en Sistemas Computacionales</p>
-        
-        <h2>Mis Pasatiempos Favoritos</h2>
+            
+            <h2>Actualmente</h2>
+            <p>Estudiante de Ingeniería en Sistemas Computacionales</p>
+            
+            <h2>Mis Pasatiempos Favoritos</h2>
 
             <!-- Primera tarjeta -->
-        <div style="border: 2px solid #ccc; padding: 10px; margin-bottom: 20px;">
-            <h3>Jugar con mis perritos</h3>
-            <p>Disfruto pasar tiempo con mis perritos, sacarlas a pasear y jugar con ellas.</p>
+            <div style="border: 2px solid #ccc; padding: 10px; margin-bottom: 20px;">
+                <h3>Jugar con mis perritos</h3>
+                <p>Disfruto pasar tiempo con mis perritos, sacarlas a pasear y jugar con ellas.</p>
 
-            <h4>Fotos:</h4>
-            <div>
-                <img src="img/p1.jpg" alt="Sombra con Cali " width="100">
-                <img src="img/p2.jpg" alt="cali enseñando los dientes" width="100">
-                <img src="img/p3.jpg" alt="Greta sonriendo" width="100">
-                <img src="img/p4.jpg" alt="Greta enojada" width="100">
-                <img src="img/p5.jpg" alt="Cali y Vero" width="100">
-                <img src="img/p6.jpg" alt="Cali" width="100">
-            </div>
+                <h4>Fotos:</h4>
+                <div>
+                    <img src="img/p1.jpg" alt="Sombra con Cali " width="100">
+                    <img src="img/p2.jpg" alt="cali enseñando los dientes" width="100">
+                    <img src="img/p3.jpg" alt="Greta sonriendo" width="100">
+                    <img src="img/p4.jpg" alt="Greta enojada" width="100">
+                    <img src="img/p5.jpg" alt="Cali y Vero" width="100">
+                    <img src="img/p6.jpg" alt="Cali" width="100">
+                </div>
 
                 <p><strong>Cali</strong> y <strong>Greta</strong></p>
-        </div>
-
-        <!-- Segunda tarjeta -->
-        <div style="border: 2px solid #ccc; padding: 10px;">
-            <h3>Futbol</h3>
-            <p>Me gusta ver el futbol e ir a los estadios</p>
-
-            <h4>Fotos:</h4>
-            <div>
-                <img src="img/e1.jpg" alt="Estadio 1" width="100">
-                <img src="img/e2.jpg" alt="Estadio Toluca" width="100">
-                <img src="img/e4.jpg" alt="Verito Estadio Pachuca" width="100">
-                <img src="img/e6.jpg" alt="Estadio Pachuca" width="100">
-                <img src="img/e9.jpg" alt="Amigos Cruz Azul" width="100">
-                <img src="img/e10.jpg" alt="Vero con playera del Cruz Azul" width="100">
             </div>
 
-            <p><strong>Mi equipo favorito:</strong> el Cruz Azul</p>
-        </div>
-    </section>
+            <!-- Segunda tarjeta -->
+            <div style="border: 2px solid #ccc; padding: 10px;">
+                <h3>Futbol</h3>
+                <p>Me gusta ver el futbol e ir a los estadios</p>
+
+                <h4>Fotos:</h4>
+                <div>
+                    <img src="img/e1.jpg" alt="Estadio 1" width="100">
+                    <img src="img/e2.jpg" alt="Estadio Toluca" width="100">
+                    <img src="img/e4.jpg" alt="Verito Estadio Pachuca" width="100">
+                    <img src="img/e6.jpg" alt="Estadio Pachuca" width="100">
+                    <img src="img/e9.jpg" alt="Amigos Cruz Azul" width="100">
+                    <img src="img/e10.jpg" alt="Vero con playera del Cruz Azul" width="100">
+                </div>
+
+                <p><strong>Mi equipo favorito:</strong> el Cruz Azul</p>
+            </div>
+        </section>
+
+        <sectio style="display: flex; justify-content: center; align-items: center; ">
+            <form action="" style="background-color: #f8f8f8; padding: 20px; width: 300px; border-radius: 10px; font-family: sans-serif;">
+                <h2 style="text-align: center;">CONTACTO</h2>
+
+                <!-- Nombre -->
+                <label for="nombre">👤 Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" style="width: 100%; margin-bottom: 10px;" required><br>
+
+                <!-- Email -->
+                <label for="email">📧 Correo electrónico:</label><br>
+                <input type="email" id="email" name="email" style="width: 100%; margin-bottom: 10px;" required><br>
+
+                <!-- Mensaje -->
+                <label for="mensaje">💬 Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="4" style="width: 100%; margin-bottom: 10px;" required></textarea><br>
+
+                <!-- Botón -->
+                <input type="submit" value="Enviar" style="width: 100%; padding: 8px; background-color: #4CAF50; color: white; border: none; border-radius: 5px;">
+            </form>
+
+        </section>
         
+    </main>
+
     <footer style="background-color: #ec7ec7; padding: 20px;">
         <section style="display: flex; justify-content: space-between; align-items: flex-start;">
             <!-- Columna izquierda: contacto -->
