@@ -130,3 +130,10 @@ footer img {
 footer img:hover {
     transform: scale(1.1);
 }
+
+.fondo-color {
+    background-color: #ffe0f0; /* puedes cambiar este rosa claro por el que gustes */
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 20px;
+}
